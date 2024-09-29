@@ -1,0 +1,76 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#search {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#clear-search {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+  justify-items: center;
+  margin: 0 80px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/*footer*/
+.footerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: fit-content;
+  background-color: black;
+  gap: 15px;
+}
+
+.rsLogo {
+  width: 25px;
+}
+.a-footer {
+  color: aliceblue;
+  text-decoration: none;
+}
+.span-footer {
+  color: aliceblue;
+}
+.school-logo {
+  padding-top: 4px;
+}
